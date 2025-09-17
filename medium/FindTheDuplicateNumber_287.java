@@ -1,6 +1,5 @@
 package medium;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class FindTheDuplicateNumber_287 {
