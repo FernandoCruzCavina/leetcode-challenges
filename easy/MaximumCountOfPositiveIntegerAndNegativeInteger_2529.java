@@ -1,0 +1,15 @@
+package easy;
+
+public class MaximumCountOfPositiveIntegerAndNegativeInteger_2529 {
+
+  public int maximumCount(int[] nums) {
+    int pos = 0, neg = 0;
+
+    for (int i : nums) {
+      if(i > 0) pos++;
+      if(i < 0) neg++;
+    }
+
+    return pos > neg ? pos : neg;
+  }
+}
