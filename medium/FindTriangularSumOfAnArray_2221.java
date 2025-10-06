@@ -1,7 +1,5 @@
 package medium;
 
-import java.util.Arrays;
-
 public class FindTriangularSumOfAnArray_2221 {
     public static int triangularSum(int[] nums) {
         if (nums.length == 1) {
